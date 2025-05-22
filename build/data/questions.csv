@@ -1,0 +1,101 @@
+id,type,difficulty,marks,question,optionA,optionB,optionC,optionD,correctOption
+1,mcq,easy,2,Which of the following is a valid keyword in C?,var,bool,int,string,C
+2,mcq,easy,2,What is the correct format specifier for printing integers in C?,%i,%d,%f,%c,B
+3,mcq,medium,3,What will sizeof(int) return typically in a 32-bit system?,2,4,8,16,B
+4,mcq,medium,3,Which operator is used for bitwise AND in C?,&&,&,||,!,B
+5,mcq,medium,3,Which storage class defines a local variable with a permanent storage duration?,static,auto,register,extern,A
+6,mcq,hard,4,Which function is used to dynamically allocate memory in C?,malloc(),calloc(),realloc(),free(),A
+7,mcq,hard,4,What does the strcmp() function do?,Concatenates two strings,Compares two strings,Finds string length,Copies a string,B
+8,mcq,hard,4,Which header file is required to use file operations in C?,stdio.h,stdlib.h,string.h,file.h,A
+9,mcq,medium,3,Which statement correctly declares an array in C?,int arr(),int arr[],array int[],int[] arr,B
+10,mcq,medium,3,Which of the following is a valid loop structure in C?,for(),repeat(),loop(),foreach(),A
+11,mcq,easy,2,How do you define a constant value in C?,define,var,static,const,A
+12,mcq,easy,2,What is the default return type of the main() function in C?,void,int,float,char,B
+13,mcq,medium,3,What is the purpose of a break statement in C?,Terminates a loop,Continues to the next iteration,Exits a function,Restarts the loop,A
+14,mcq,medium,3,Which operator is used to access the address of a variable in C?,&,*,%,@,A
+15,mcq,hard,4,Which of these functions is used to read formatted input in C?,printf(),scanf(),gets(),puts(),B
+16,mcq,hard,4,Which pointer type does not consume memory but provides access to memory locations?,void*,int*,char*,float*,A
+17,mcq,medium,3,What is the correct way to declare a function prototype in C?,void function(int);,function void(int);,int function(void);,void function[];,A
+18,mcq,medium,3,Which of the following statements about recursion is true?,Recursion must always terminate,Recursion never ends,Recursion uses an array,Recursion doesn't need a base case,A
+19,mcq,hard,4,Which function releases dynamically allocated memory in C?,delete(),free(),clear(),remove(),B
+20,mcq,hard,4,Which type of error occurs when a program tries to access memory beyond allocated limits?,Logical error,Runtime error,Segmentation fault,Compilation error,C
+21,mcq,easy,2,What is the main purpose of a header file in C?,Defines global variables,Includes external function declarations,Stores program data,Handles user input,B
+22,mcq,easy,2,Which operator is used for pointer dereferencing?,&,*,->,%,B
+23,mcq,medium,3,Which loop ensures execution at least once before checking the condition?,for,while,do-while,nested loop,C
+24,mcq,medium,3,What does the fopen() function return if file opening fails?,0,NULL,EOF,1,B
+25,mcq,medium,3,What type of error occurs if memory allocation fails?,Segmentation fault,Logical error,Syntax error,Compilation error,A
+26,mcq,hard,4,Which function is used to copy strings in C?,strcat(),strcpy(),strcmp(),strlen(),B
+27,mcq,hard,4,How do you correctly define a macro in C?,#macro PI 3.14,#define PI 3.14,define PI = 3.14,#def PI 3.14,B
+28,mcq,medium,3,Which keyword is used to prevent modification of a variable?,static,register,const,volatile,C
+29,mcq,medium,3,Which data type consumes the most memory in C?,int,float,double,char,C
+30,mcq,medium,3,What does sizeof() return for an array?,Size of first element,Total size in bytes,Number of elements,Memory address,B
+31,mcq,easy,2,What is the correct way to declare a pointer in C?,int ptr;,ptr int;,int ptr;,pointer int;,A
+32,mcq,easy,2,Which type of loop is best suited for checking a condition first?,do-while,while,for,none,B
+33,mcq,medium,3,Which function is used for unformatted input in C?,gets(),fgets(),scanf(),putchar(),A
+34,mcq,medium,3,What happens when you increment a pointer?,Increases the value,Moves to next memory location,Reduces memory usage,Resets the pointer,B
+35,mcq,medium,3,Which statement correctly initializes a structure?,struct obj {}; ,struct obj = {0}; ,struct obj obj = {0}; ,struct obj obj;,C
+36,mcq,hard,4,Which storage class makes a variable persist across function calls?,static,register,extern,auto,A
+37,mcq,hard,4,Which operator is used to access members of a struct via pointer?,->,.,*,&,A
+38,mcq,medium,3,What does fflush(stdin) do in C?,Clears input buffer,Clears output buffer,Flushes all memory,Terminates the program,A
+39,mcq,medium,3,What is the result of printf("%c", 65);?,A,65,error,NULL,A
+40,mcq,medium,3,Which function converts string to integer in C?,atoi(),strcpy(),itoa(),strchr(),A
+41,mcq,easy,2,What is the default value of an uninitialized static variable?,Random value,Zero,One,NULL,B
+42,mcq,easy,2,Which operator is used for conditional execution?,!=,?,||,&&,B
+43,mcq,medium,3,Which function is used to compare two memory blocks?,strcmp(),memcmp(),strcpy(),memcpy(),B
+44,mcq,medium,3,Which function moves the file pointer to the end?,rewind(),fseek(),ftell(),endseek(),B
+45,mcq,medium,3,Which function is used to dynamically resize memory in C?,malloc(),calloc(),realloc(),free(),C
+46,mcq,hard,4,What does the volatile keyword ensure?,No optimization,Fast execution,Read-only variable,Limited scope,A
+47,mcq,hard,4,Which function writes formatted output to a string in C?,printf(),fprintf(),sprintf(),puts(),C
+48,mcq,medium,3,Which operator checks both conditions must be true?,||,&&,!,&,B
+49,mcq,medium,3,Which function is used to copy memory in C?,strcpy(),memcpy(),malloc(),memset(),B
+50,mcq,medium,3,Which function removes whitespace from input?,trim(),isspace(),strstrip(),strtok(),D
+51,mcq,easy,2,Which type of variable can be modified inside a function but retains its value globally?,register,extern,auto,static,D
+52,mcq,easy,2,What is the correct way to pass an array to a function?,By reference,By value,Copying each element,None,A
+53,mcq,medium,3,Which function returns the current position of a file pointer?,fseek(),ftell(),rewind(),flush(),B
+54,mcq,medium,3,Which function appends data to an existing file?,fwrite(),fopen("filename","w"),fopen("filename","a"),fseek(),C
+55,mcq,medium,3,Which function checks whether a character is uppercase?,toupper(),islower(),isupper(),iscntrl(),C
+56,mcq,hard,4,Which function finds a substring in a string?,strstr(),strchr(),strcmp(),strlen(),A
+57,mcq,hard,4,Which function removes the last character from a string?,trim(),strrchr(),strtok(),strdel(),C
+58,mcq,medium,3,Which of the following is a correct way to initialize a pointer?,ptr = malloc(sizeof(int)),ptr = int *,ptr = int,[ptr] = &var,A
+59,mcq,medium,3,Which operator is used for modulo operation?,%,/,*,&,A
+60,mcq,medium,3,Which function is used to check if a character is a digit?,isalpha(),isdigit(),isnum(),iscntrl(),B
+61,desc,easy,4,Explain arrays with an example.
+62,desc,easy,4,Explain pointers with an example.
+63,desc,easy,4,Explain structures with an example.
+64,desc,easy,4,Explain unions with an example.
+65,desc,medium,5,Explain dynamic memory allocation in C with an example.
+66,desc,medium,5,Explain file handling in C with an example.
+67,desc,medium,5,Explain recursion with an example.
+68,desc,medium,5,Explain the difference between call by value and call by reference with an example.
+69,desc,medium,5,Explain the use of macros in C with an example.
+70,desc,medium,5,Explain the concept of function pointers with an example.
+71,desc,medium,5,Explain the difference between malloc() and calloc() with an example.
+72,desc,medium,5,Explain the use of typedef in C with an example.
+73,desc,medium,5,Explain the concept of static variables in C with an example.
+74,desc,medium,5,Explain the difference between global and local variables with an example.
+75,desc,medium,5,Explain the use of the const keyword in C with an example.
+76,desc,medium,5,Explain the concept of volatile variables in C with an example.
+77,desc,medium,5,Explain the difference between pre-increment and post-increment operators with an example.
+78,desc,medium,5,Explain the use of bitwise operators in C with an example.
+79,desc,medium,5,Explain the concept of command-line arguments in C with an example.
+80,desc,medium,5,Explain the use of enumerations (enum) in C with an example.
+81,desc,easy,4,Explain linear search with an example.
+82,desc,easy,4,What are loops in C? Explain with examples.
+83,desc,easy,4,Explain the use of if-else statement with an example.
+84,desc,easy,4,Explain switch-case statement in C with an example.
+85,desc,easy,4,Explain the difference between while and do-while loops.
+86,desc,easy,4,What is a function in C? Explain with an example.
+87,desc,easy,4,Explain the use of arrays in C with an example.
+88,desc,easy,4,What is a pointer? Explain with an example.
+89,desc,easy,4,Explain the difference between array and pointer.
+90,desc,easy,4,Explain the concept of strings in C.
+91,desc,easy,4,Explain how to take user input using scanf().
+92,desc,easy,4,How is output printed using printf()? Give example.
+93,desc,easy,4,Explain the use of header files in C.
+94,desc,easy,4,What is recursion? Give an example.
+95,desc,easy,4,Explain the use of sizeof() operator with example.
+96,desc,easy,4,What are logical operators in C? Explain with example.
+97,desc,easy,4,Explain the use of relational operators with an example.
+98,desc,easy,4,Explain nested loops with an example.
+99,desc,easy,4,Explain break and continue statements in C.
+100,desc,easy,4,Explain the use of the ternary operator in C.

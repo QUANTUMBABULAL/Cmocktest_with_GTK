@@ -1,0 +1,7 @@
+# ninja log v6
+13	203	7696075800147407	CMakeFiles/QuestionGeneratorApp.dir/src/file_utils.c.obj	dbc28cb446b8d8fe
+36	1028	7696075800377966	CMakeFiles/QuestionGeneratorApp.dir/src/style.c.obj	8931decf16565c33
+21	228	7696075800227670	CMakeFiles/QuestionGeneratorApp.dir/src/generator.c.obj	7fe4ad5c32c3f9ca
+25	870	7696079088846909	CMakeFiles/QuestionGeneratorApp.dir/src/main.c.obj	34f9656f8e5dcb5b
+28	1024	7696075800297912	CMakeFiles/QuestionGeneratorApp.dir/src/quiz.c.obj	d416beb716ccfc0f
+871	1078	7696079097301997	QuestionGeneratorApp.exe	90d2955d8e006b91
